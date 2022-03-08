@@ -1,0 +1,23 @@
+<div class="rccs">
+    <div [ngClass]="classCard()">
+        <div class="rccs__card--front">
+            <div class="rccs__card__background"></div>
+            <div class="rccs__issuer"></div>
+            <div [ngClass]="classCVC()">{{ cvc }}</div>
+            <div [ngClass]="classNumber()">{{ nextNumber || '•••• •••• •••• ••••'}}</div>
+            <div [ngClass]="className()">{{ name || i18n.name }}</div>
+            <div [ngClass]="classExpiry()">
+                <div class="rccs__expiry__valid">{{ i18n.valid }}</div>
+                <div class="rccs__expiry__value">{{ expiryCard() || '••/••' }}</div>
+            </div>
+            <div class="rccs__chip"> </div>
+        </div>
+        <div class="rccs__card--back">
+            <div class="rccs__card__background"></div>
+            <div class="rccs__stripe"></div>
+            <div class="rccs__signature"></div>
+            <div [ngClass]="classCVCBack()">{{ cvc }}</div>
+            <div class="rccs__issuer"></div>
+        </div>
+    </div>
+</div>

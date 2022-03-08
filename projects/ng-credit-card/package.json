@@ -1,0 +1,34 @@
+{
+  "name": "angular-credit-card",
+  "version": "0.1.2",
+  "description": "Beautiful credit cards for your payment forms",
+  "keywords": [
+    "angular",
+    "credit",
+    "cards",
+    "payment",
+    "form",
+    "ui",
+    "credit card",
+    "ng-component"
+  ],
+  "author": {
+    "name": "Luis Gutierrez",
+    "email": "legutierrezv@correo.udistrital.edu.co",
+    "url": "https://github.com/ThemisCol"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/ThemisCol/angular-credit-card#readme",
+  "bugs": {
+    "url": "https://github.com/ThemisCol/angular-credit-card/issues",
+    "email": "legutierrezv@correo.udistrital.edu.co"
+  },
+  "peerDependencies": {
+    "@angular/common": "^13.2.0",
+    "@angular/core": "^13.2.0",
+    "payment": "^2.4.6"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
