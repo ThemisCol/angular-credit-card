@@ -39,8 +39,8 @@ export class NgCreditCardComponent implements OnInit {
   }
 
   valideName(): void {
-    if (this.name?.length > 18) {
-      this.name = this.name?.slice(0, 18);
+    if (this.name?.length > 24) {
+      this.name = this.name?.slice(0, 24);
     }
   }
 
